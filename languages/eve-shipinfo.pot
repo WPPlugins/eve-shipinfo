@@ -1,0 +1,1911 @@
+# Copyright (C) 2015 EVE Shipinfo
+# This file is distributed under the same license as the EVE Shipinfo package.
+msgid ""
+msgstr ""
+"Project-Id-Version: EVE Shipinfo 1.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/eve-shipinfo\n"
+"POT-Creation-Date: 2015-11-29 14:20:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:7
+msgid "EVE ShipInfo Dashboard"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:17
+msgid "Warning"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:29
+msgid "OK"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:30
+msgid "Congratulations, everything seems to be in order."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:33
+msgid "System health status:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:37
+msgid "Data files version"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:41
+msgid "Ship screenshots bundle"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:54
+msgid "No screenshots bundle is installed."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:58
+msgid ""
+"To download a screenshots bundle, go to the %1$splugin download page%2$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:71
+msgid "The screenshot bundle %1$s is installed."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:78
+msgid "An older screenshot bundle seems to be installed."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:85
+msgid "To check for updates, view the %1$splugin download page%2$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:99
+msgid ""
+"Permalinks are not enabled, virtual pages will not work even if you have "
+"enabled them."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:104
+msgid "Could not find any pages."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:105
+msgid "For virtual pages to work, you have to create at least one page."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Dashboard.php:106
+msgid "It does not need to have any content, just create an empty page."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:7
+#: classes/EVEShipInfo/Admin/Page/Main.php:13
+msgid "Database reference"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:27
+msgid ""
+"The following is a <b>reference for items</b> you can use in combination "
+"with the plugin's shortcodes."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:28
+msgid ""
+"Whenever you need to specify names of things like races or ship groups, you "
+"can look them up here."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:29
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:107
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:107
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:137
+#: classes/EVEShipInfo/Admin/Page.php:299
+#: classes/EVEShipInfo/Admin/UI/Form/Element.php:73
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:14
+msgid "Note:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:29
+msgid ""
+"These lists are generated dynamically from the integrated ships database, so "
+"they will always be accurate for the version of the plugin you have "
+"installed."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:46
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:78
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:122
+#: classes/EVEShipInfo/EFTManager/Filters.php:194
+msgid "ID"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:47
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:79
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:123
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:48
+#: classes/EVEShipInfo/Collection/Filter.php:598
+#: classes/EVEShipInfo/Collection/List.php:26
+msgid "Name"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:48
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:80
+msgid "Shortcode name"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:64
+msgid "Races"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:81
+msgid "Special"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:104
+msgid "Ship groups"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:106
+msgid "These are all available ship groups in the database."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:107
+#: classes/EVEShipInfo/Shortcode/ShipList.php:269
+msgid ""
+"The first groups in the list are special convenience groups that "
+"automatically select all ship groups of the same hull size."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:138
+msgid "Ships"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Database.php:139
+msgid "These are all available ships in the database."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:9
+#: classes/EVEShipInfo/Admin/Page/Main.php:12 classes/EVEShipInfo.php:786
+msgid "EFT fittings"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:28
+msgid "Edit fitting"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:35
+msgid "Add new"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:63
+msgid ""
+"The following is a list of all known fits, and the name to use with the "
+"shortcode to insert it in your posts."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:65
+msgid ""
+"Have a look at the %sshortcode reference%s for examples on how to use this."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:69
+msgid ""
+"If you mark fits as private, they will not be shown in the fittings tab in "
+"the ship info windows."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:70
+msgid "You can still link them manually with the fitting shortcodes though."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:77
+msgid "Order by:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:82
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:96
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:120
+msgid "Apply"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:91
+msgid "Search, e.g. Abaddon"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:102
+msgid "Reset"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:113
+msgid "Select / deselect all"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:115
+msgid "Fit name"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:116
+msgid "Ship"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:117
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:524
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:112
+#: classes/EVEShipInfo/EFTManager/Filters.php:196
+msgid "Visibility"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:118
+msgid "Modified"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:119
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:482
+msgid "Fit ID"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:120
+msgid "Protected"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:129
+msgid "No fittings found matching these criteria."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:134
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:526
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:114
+#: classes/EVEShipInfo/EFTManager/Filters.php:250
+msgid "Private"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:136
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:525
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:113
+#: classes/EVEShipInfo/EFTManager/Filters.php:249
+msgid "Public"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:144
+msgid "This fitting has some invalid slots."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:170
+msgid "With selected:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:173
+msgid "Delete"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:181
+msgid "Make private"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:187
+msgid "Make public"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:194
+msgid "Protect"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:200
+msgid "Unprotect"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:209
+msgid "Available fittings"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:231
+msgid "No valid ships were selected, no changes made."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:260
+msgid "The fitting %1$s was deleted successfully at %2$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:268
+msgid "All the selected fittings were already deleted."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:273
+msgid "%1$s fittings were deleted successfully at %2$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:315
+msgid "protected"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:317
+msgid "not protected"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:326
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:377
+msgid "The fitting %1$s was successfully marked as %2$s at %3$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:335
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:386
+msgid "All the selected fittings were already marked as %1$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:341
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:392
+msgid "%1$s fittings were successfully marked as %2$s at %3$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:370
+msgid "public"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:372
+msgid "private"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:443
+msgid "Some module slots in this fit could not be recognized."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:444
+msgid ""
+"This can happen for example when a fit uses old modules that have been "
+"renamed or removed from the game."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:445
+msgid "The following modules could not be recognized:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:455
+msgid "These modules have already been stripped from the fit below."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:456
+msgid ""
+"To remove this notice, simply save the fit as is to confirm removing the "
+"obsolete modules."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:459
+msgid "Invalid slots detected"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:473
+msgid "Cancel"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:476
+msgid "Add now"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:480
+msgid "Save now"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:483
+#: classes/EVEShipInfo/EFTManager/Filters.php:197
+msgid "Date added"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:484
+msgid "Last modified"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:485
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:49
+msgid "Shortcode"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:486
+msgid "Shortcode (custom name)"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:486
+msgid "Custom name"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:489
+msgid "EFT fitting"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:491
+msgid "Could not recognize the format as an EFT fitting."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:496
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:96
+msgid "Howto:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:498
+msgid ""
+"Open the target fit in EFT, in the ship menu choose %1$s, and paste it here "
+"(press %2$s in the field)."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:502
+msgid ""
+"All information, from the ship to the fit label will be retrieved "
+"automatically from the fit."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:505
+msgid ""
+"When manually adding modules, ensure you write the name exactly as used "
+"ingame, including capitalization."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:506
+msgid "The order of modules is irrelevant: they are are sorted automatically."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:507
+msgid ""
+"The available slots on the ship are not checked, so you can add too many "
+"modules here."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:510
+msgid "Label"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:513
+msgid "May not contain commas."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:517
+msgid "Optional:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:518
+msgid ""
+"Specify this if you wish to overwrite the label that comes with the fit."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:528
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:117
+msgid "Protection"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:529
+msgid "Protect fit from import"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:530
+msgid ""
+"If checked, this fit will be protected from any changes when importing fits "
+"from EFT."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:557
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:641
+msgid "Add a new fit"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:562
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:673
+msgid "Edit the %1$s fitting %2$s"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:606
+msgid ""
+"The following lets you manually add a new fit to the EFT fittings collection."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:633
+msgid "The fitting %1$s was added successfully at %2$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:640
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:671
+msgid "Back to the list"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:658
+msgid "The fitting %1$s was updated successfully at %2$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTFittings.php:664
+msgid "The fitting %1$s had no edits, and was not modified."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:7
+#: classes/EVEShipInfo/Admin/Page/Main.php:11 classes/EVEShipInfo.php:781
+msgid "EFT import"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:51
+msgid "All existing fits will be deleted permanently."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:52
+msgid "This cannot be undone, are you sure?"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:54
+msgid "Fittings maintenance"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:65
+msgid "Displays a confirmation dialog."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:66
+msgid "Delete all fits..."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:89
+msgid "Upload and import"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:92
+msgid "EFT Export XML file"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:97
+msgid ""
+"Open EFT, select File &gt; Import/Export to EVE &gt; Save all setups to one "
+"XML file..."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:98
+msgid "Save the file where you like, then upload it here."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:101
+msgid "Import mode"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:102
+msgid "Clean:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:102
+msgid "Delete all existing fits before the import"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:103
+msgid "Merge:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:103
+msgid "Add new fits, replace existing ones and keep all others"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:104
+msgid "New only:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:104
+msgid "Only add new fits, leave existing untouched"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:106
+msgid ""
+"Specifies what to do with already existing fits and those you are importing."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:108
+msgid "The fitting names are used to match existing fittings."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:109
+msgid "If you changed some names in EFT, it is best to use the merge option."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:115
+msgid "The default visibility to use for all imported fits."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:118
+msgid "Ignore protected fittings"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:120
+msgid ""
+"If checked, any fittings that are set as protected will be left entirely "
+"untouched by the import."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:121
+msgid ""
+"If a fitting to import has the same name as a protected one, it will not be "
+"imported."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:122
+msgid ""
+"If unchecked, protected fittings will be deleted and updated like any other."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:132
+msgid "Upload EFT export"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:135
+msgid ""
+"To easily share EFT fits with your readers in your posts, you can upload an "
+"EFT export here."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:136
+msgid ""
+"Once you have uploaded your fits, you can use the dedicated shortcodes to "
+"display them."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:138
+msgid "The EFT export format is somewhat limited."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:139
+msgid ""
+"It does not include any implants or turret/launcher charges you may have "
+"used."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:140
+msgid ""
+"Alternatively, you can add single fittings manually or edit them after the "
+"import."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:154
+msgid "All fittings have been deleted successfully at %1$s"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:175
+msgid ""
+"The uploaded XML file could not be read, it is possibly malformed or not an "
+"XML file."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:184
+msgid "The fitting data could not be found in the XML file."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:199
+msgid "No fittings found in the XML file."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:265
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:266
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:267
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:268
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:269
+msgid "none"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:271
+msgid "No, protected fits are overwritten"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:273
+msgid "Yes, protected fits are left unchanged"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:278
+msgid "New only"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:282
+msgid "Merge"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:286
+msgid "Clean"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:292
+msgid "The file was imported successfully at %1$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:297
+msgid "Import summary:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:299
+msgid "Import mode:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:300
+msgid "Ignore protected fittings:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:301
+msgid "Fittings in imported file:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:302
+msgid "New:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:303
+msgid "Updated:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:304
+msgid "Unchanged:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:305
+msgid "Protected:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:306
+msgid "Invalid:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/EFTImport.php:306
+msgid "Unknown ships, duplicates, etc."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Help.php:7
+msgid "Help and documentation"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Help.php:13
+msgid "Welcome to the EVE ShipInfo documentation."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Help.php:14
+msgid "Please choose a destination in the navigation above."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:25
+msgid "Shortcode reference:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:28
+msgid "Shortcodes reference"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:43
+msgid "Click on a shortcode to view a detailed explanation on how to use it."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:50
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:94
+msgid "Description"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:82
+msgid "Shortcode:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:93
+msgid "Attribute"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:95
+msgid "Optional"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:96
+msgid "Type"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:97
+msgid "Default value"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:98
+msgid "Values"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:127
+msgid "Unknown"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:130
+msgid "Number"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:134
+msgid "Multiple choice"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:138
+msgid "Text"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:140
+msgid "Text/Expression"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:145
+msgid "Comma-separated list"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Shortcodes.php:178
+msgid "Examples"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:7
+#: classes/EVEShipInfo/Admin/Page/Main.php:9 classes/EVEShipInfo.php:771
+msgid "Themes"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:19
+msgid "Frontend themes"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:22
+msgid ""
+"This lets you choose among one of the bundled frontend themes for the ship "
+"popups and EFT fittings."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:23
+msgid "Tip:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:24
+msgid "Click on a theme preview thumbnail to maximize it."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:43
+msgid "The frontend theme was successfully set to %1$s at %2$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:94
+msgid "Current Theme"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:142
+msgid "Substyle:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:143
+msgid "Previous"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main/Themes.php:145
+msgid "Next"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main.php:8 classes/EVEShipInfo.php:766
+#: classes/EVEShipInfo.php:899
+msgid "Dashboard"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main.php:10
+msgid "Shortcordes reference"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Main.php:22 classes/EVEShipInfo.php:750
+#: classes/EVEShipInfo.php:757 classes/EVEShipInfo.php:758
+msgid "EVE ShipInfo"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Settings/Basic.php:16
+#: classes/EVEShipInfo/Admin/Page/Settings.php:8
+msgid "Basic settings"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Settings/Basic.php:17
+msgid "Enable virtual pages?"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Settings/Basic.php:18
+msgid "Yes, allow both virtual pages and popups"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Settings/Basic.php:19
+msgid "No, only use info popups"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Settings/Basic.php:20
+msgid ""
+"When disabled, ship links will only point to popups, and the ship pages will "
+"show the blog's homepage."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Settings.php:17
+msgid "EVE ShipInfo Settings"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page/Tab.php:166
+msgid "You  will be redirected automatically."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:110
+msgid "Error:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:286
+msgid "Error message:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:289
+msgid ""
+"If you feel this error is absolutely out of place, feel free to send a bug "
+"report to %1$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:292
+msgid ""
+"Ideally this should include the last few things you did before you got this "
+"message."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:293
+msgid ""
+"Also interesting would be to know if you can reproduce the error by doing "
+"the same thing again."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:301
+msgid ""
+"Turning on the WordPress debugging mode will display more detailed "
+"information about any %1$s errors."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:310
+msgid "Error details:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:312
+msgid "Full trace:"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:316
+msgid "File"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:317
+msgid "Line"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:318
+msgid "Function call"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:389
+msgid "Error"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/Page.php:392
+msgid "An exception with the code <code>%1$s</code> occurred."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form/Element/Select.php:52
+msgid "Please select..."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form/Element/Upload.php:34
+msgid "No uploaded file found."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form/Element/Upload.php:41
+msgid "The uploaded file is too big."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form/Element/Upload.php:45
+msgid "The file was only partially uploaded."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form/Element/Upload.php:49
+msgid "No file uploaded."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form/Element/Upload.php:55
+msgid "Could not write uploaded file to disk, server configuration error."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form/Element/Upload.php:61
+msgid "Could not open uploaded file."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form/Element/Upload.php:67
+msgid "The uploaded file was empty."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form/Element.php:86
+msgid "required"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form/Element.php:128
+msgid "This element is required."
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/Form.php:16
+msgid "Save"
+msgstr ""
+
+#: classes/EVEShipInfo/Admin/UI/StuffBox.php:87
+msgid "Click to toggle"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:105
+#: classes/EVEShipInfo/Collection/Filter.php:122
+msgid "Unknown order field %1$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:249
+msgid "All industrials"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:263
+msgid "All battleships"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:271
+msgid "All frigates"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:285
+msgid "All capitals"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:295
+msgid "All battlecruisers"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:303
+msgid "All cruisers"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:315
+msgid "All destroyers"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:321
+msgid "Miscellaneous"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:577
+msgid "The expression %1$s could not be recognized."
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:596
+#: classes/EVEShipInfo/Collection/List.php:27
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:109
+#: classes/EVEShipInfo.php:646
+msgid "Agility"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:597
+#: classes/EVEShipInfo/Collection/List.php:33
+msgid "Group"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:599
+#: classes/EVEShipInfo/Collection/List.php:28
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:105
+#: classes/EVEShipInfo.php:645
+msgid "Warp speed"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:600
+msgid "Velocity"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:601
+#: classes/EVEShipInfo/Collection/List.php:30
+msgid "High slots"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:602
+#: classes/EVEShipInfo/Collection/List.php:31
+msgid "Med slots"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:603
+#: classes/EVEShipInfo/Collection/List.php:32
+msgid "Low slots"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:604
+#: classes/EVEShipInfo/Collection/List.php:29
+msgid "Race"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:605
+msgid "Virtual group"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:606
+#: classes/EVEShipInfo/Collection/List.php:34
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:98
+#: classes/EVEShipInfo.php:637
+msgid "Cargo bay"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:607
+#: classes/EVEShipInfo/Collection/List.php:35
+msgid "Drone bandwidth"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:608
+#: classes/EVEShipInfo/Collection/List.php:37
+msgid "Turret slots"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:609
+#: classes/EVEShipInfo/Collection/List.php:38
+msgid "Launcher slots"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Filter.php:610
+#: classes/EVEShipInfo/Collection/List.php:40
+msgid "Tech level"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/List.php:36
+msgid "Drone bay"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/List.php:39
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:107
+#: classes/EVEShipInfo.php:647
+msgid "Max velocity"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/List.php:298
+msgid "Column %1$s is not known."
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/List.php:327
+msgid "List debug console"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/List.php:328
+msgid "Configuration"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/List.php:336
+msgid "Warning messages"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/List.php:347
+msgid "Filter warning messages"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship/Attribute.php:137
+msgid "HP"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship/Attribute.php:138
+msgid "MW"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship/Attribute.php:139
+msgid "M/Sec"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship/Attribute.php:140
+msgid "TF"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship/Attribute.php:141
+msgid "M"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship/Attribute.php:142
+msgid "S"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship/Attribute.php:143
+msgid "GJ"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship/Attribute.php:144
+msgid "MM"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship/Attribute.php:145
+#: classes/EVEShipInfo/Collection/Ship.php:129
+#: classes/EVEShipInfo/Collection/Ship.php:139
+msgid "M3"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship/Attribute.php:146
+msgid "MB/S"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship.php:119
+msgid "KG"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection/Ship.php:680
+msgid "AU/S"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection.php:224
+msgid "Cannot open a the data file %1$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Collection.php:233
+msgid "Cannot decode the data file %1$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Collection.php:360
+msgid "Front"
+msgstr ""
+
+#: classes/EVEShipInfo/Collection.php:361
+msgid "Side"
+msgstr ""
+
+#: classes/EVEShipInfo/EFTManager/Filters.php:193
+msgid "Fitting name"
+msgstr ""
+
+#: classes/EVEShipInfo/EFTManager/Filters.php:195
+msgid "Ship name"
+msgstr ""
+
+#: classes/EVEShipInfo/EFTManager/Filters.php:222
+msgid "Ascending"
+msgstr ""
+
+#: classes/EVEShipInfo/EFTManager/Filters.php:223
+msgid "Descending"
+msgstr ""
+
+#: classes/EVEShipInfo/EFTManager/Filters.php:248
+msgid "Any visibility"
+msgstr ""
+
+#: classes/EVEShipInfo/EFTManager/Fit.php:170
+msgid "Today"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:13
+msgid "Links a text to show details of one of your EFT fits."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:16
+msgid "You have to %simport%s your EFT fits before you can use this."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:24
+msgid "EFT fit link"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:76
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:94
+#: classes/EVEShipInfo/Shortcode/ShipList.php:84
+#: classes/EVEShipInfo/Shortcode/ShipList.php:166
+#: classes/EVEShipInfo/Shortcode/ShipList.php:176 classes/EVEShipInfo.php:892
+msgid "Settings"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:77
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:95
+msgid "Configuration settings for the link."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:81
+msgid "The ID of the fit to link to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:83
+msgid "Have a look at the %sfittings list%s to find out which IDs you can use."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:100
+msgid "Insert a link to the target fit."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:101
+msgid ""
+"Since the shortcode is empty, the name of the fit will be used for the link."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:104
+msgid "Custom link text"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/EFTFit.php:105
+msgid "For a custom link title, simply put the text within the shortcode."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:14
+msgid "Ships gallery"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:19
+msgid ""
+"Allows displaying a thumbnail gallery of ships, customizable just like a "
+"regular list."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:41
+msgid "The amount of columns for the gallery grid."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:47
+msgid "The amount of rows to limit the gallery grid to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:48
+msgid "If not specified, all available ships will be shown."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:49
+msgid ""
+"This is similar to the regular list's %1$s attribute, except the maximum "
+"amount of ships is determined by the columns multiplied by rows."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:55
+msgid "The pixel width for the thumbnails."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:56
+msgid "This can be any positive value up to the maximum size of %1$s."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:62
+msgid ""
+"Custom class names to add to each thumbnail container element in the "
+"generated markup."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:63
+msgid "Separate class names with spaces."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/Gallery.php:80
+msgid "Cannot show the ships gallery, the screenshots are missing."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:12
+msgid ""
+"Links ship names to either show an information popup, or to go to the "
+"virtual ship page."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:17
+msgid "Ship info links"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:98
+msgid "The name of the ship to link to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:103
+msgid "The ID of the ship to link to (takes precedence over the name)."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:108
+msgid "Whether to show the ship popup or its virtual page when clicked."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:112
+#: classes/EVEShipInfo/Shortcode/ShipList.php:127
+msgid "Yes, show a popup"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:113
+#: classes/EVEShipInfo/Shortcode/ShipList.php:128
+msgid "No, link to the virtual page"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:126
+msgid "Link a ship name to a ship info popup."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:126
+msgid "The name of the ship must match exactly, but is case insensitive."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:129
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:133
+msgid "The renowned Abaddon"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:130
+msgid ""
+"For a custom link title, specify the ship name using the %1$s attribute."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:134
+msgid ""
+"It is also possible to link a ship by its ID: performance-wise this is "
+"slightly better."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:138
+msgid "Link to the ship's virtual page instead of the popup."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipInfo.php:138
+msgid "This is only possible when the virtual pages are enabled."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:12
+msgid "Allows displaying fully customizable ship lists."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:17
+msgid "Ships list"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:85
+msgid "Configuration settings for the list."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:88
+msgid ""
+"Whether to display unit labels for ships attributes that have specific "
+"units, like %s or %s."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:92
+msgid "No, don't show any"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:93
+msgid "Yes, show when applicable"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:97
+msgid "Whether the list is enabled:"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:98
+msgid ""
+"Disabling a list allows you to keep its shortcode intact in your post "
+"without showing it."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:102
+msgid "List is enabled"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:103
+msgid "List is disabled"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:107
+msgid "The theme template file to use to render the list."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:108
+msgid "Set to %1$s to disable."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:109
+msgid "The template gets the filtered ships list in the %1$s variable."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:114
+msgid "Whether to link the ship names."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:118
+msgid "Yes, link the names."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:119
+msgid "No, don't link any names."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:123
+msgid "Whether to show the ship popup when clicked."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:132
+msgid "The ship attribute to sort the list by."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:138
+msgid "The direction in which to sort the list."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:142
+#: classes/EVEShipInfo/Shortcode/ShipList.php:143
+msgid "In descending order"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:144
+#: classes/EVEShipInfo/Shortcode/ShipList.php:145
+msgid "In ascending order"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:149
+msgid "The amount of ships to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:150
+msgid "Set to %1$s to show all available ships."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:155
+msgid "The column(s) to show in the list."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:156
+msgid "They are shown in the exact order that you specify them."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:157
+#: classes/EVEShipInfo/Shortcode/ShipList.php:236
+#: classes/EVEShipInfo/Shortcode/ShipList.php:270
+msgid "Example:"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:163
+msgid "Whether to display debugging information above the list."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:164
+msgid ""
+"Useful when something does not work as expected, since this will also show "
+"any list validation messages."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:169
+#: classes/EVEShipInfo/Shortcode/ShipList.php:179
+msgid "Yes, show"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:170
+#: classes/EVEShipInfo/Shortcode/ShipList.php:180
+msgid "No, don't show"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:174
+msgid "Whether to display the column headers."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:186
+msgid "Filters"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:187
+msgid ""
+"These are all available filtering options to limit the list to ships "
+"matching the criteria you specify."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:190
+msgid "The amount of turret slots to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:191
+#: classes/EVEShipInfo/Shortcode/ShipList.php:198
+#: classes/EVEShipInfo/Shortcode/ShipList.php:205
+#: classes/EVEShipInfo/Shortcode/ShipList.php:212
+#: classes/EVEShipInfo/Shortcode/ShipList.php:219
+#: classes/EVEShipInfo/Shortcode/ShipList.php:243
+#: classes/EVEShipInfo/Shortcode/ShipList.php:250
+#: classes/EVEShipInfo/Shortcode/ShipList.php:257
+#: classes/EVEShipInfo/Shortcode/ShipList.php:277
+#: classes/EVEShipInfo/Shortcode/ShipList.php:284
+#: classes/EVEShipInfo/Shortcode/ShipList.php:291
+#: classes/EVEShipInfo/Shortcode/ShipList.php:298
+msgid "This allows complex selections using expressions."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:197
+msgid "The amount of launcher slots to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:204
+msgid "The size of the dronebay to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:211
+msgid "The drone bandwidth to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:218
+msgid "The size of the cargobay to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:225
+msgid ""
+"Whether to include or exclude private ships that cannot be flown by players, "
+"like the game developer test ships."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:229
+msgid "Selects both private and public ships"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:230
+msgid "Only select private ships"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:231
+msgid "Only select public ships"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:235
+msgid "The race(s) to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:242
+#: classes/EVEShipInfo/Shortcode/ShipList.php:249
+#: classes/EVEShipInfo/Shortcode/ShipList.php:256
+msgid "The amount of %1$s slots to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:242
+msgid "high"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:249
+msgid "low"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:256
+msgid "med"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:263
+msgid ""
+"Limits the list to ships matching the search term either in their name or "
+"their description."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:268
+msgid "The ship group(s) to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:276
+msgid "The ship agility values to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:283
+msgid "The ship warp speed values to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:290
+msgid "The ship's maximum velocity to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:297
+msgid "The ship's tech level to limit the list to."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:316
+msgid "Exactly %1$s"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:317
+msgid "Any number above %1$s"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:318
+msgid "Any number below %1$s"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:319
+msgid "Any number above or exactly %1$s"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:320
+msgid "Any number below or exactly %1$s"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:321
+msgid "Any number including and between %1$s and %2$s"
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:503
+msgid "Lists all ships in the database."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:507
+msgid "Lists the first %1$s ships from the database."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:511
+msgid "Lists all %1$s ships."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:515
+msgid "Lists all assault frigates and interceptors."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:519
+msgid "Lists all ships with the search term %1$s in their name or description."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:523
+msgid ""
+"Lists the %1$s most agile ships in the database, showing the agility values."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:527
+msgid "Lists all %1$s ships with over %2$s high slots."
+msgstr ""
+
+#: classes/EVEShipInfo/Shortcode/ShipList.php:531
+msgid "Lists all ships with exactly %1$s high, med and low slots."
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:35
+msgid "%1$s frontal view"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:50
+msgid "%1$s side view"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:54
+#: classes/EVEShipInfo.php:639
+msgid "No launchers"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:57
+#: classes/EVEShipInfo.php:641
+msgid "1 launcher"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:59
+#: classes/EVEShipInfo.php:640
+msgid "%s launchers"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:62
+#: classes/EVEShipInfo.php:642
+msgid "No turrets"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:65
+#: classes/EVEShipInfo.php:644
+msgid "1 turret"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:67
+#: classes/EVEShipInfo.php:643
+msgid "%s turrets"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:70
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:77
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:82
+#: classes/EVEShipInfo.php:648
+msgid "None"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:92
+#: classes/EVEShipInfo.php:636
+msgid "Slots"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:102
+#: classes/EVEShipInfo.php:638
+msgid "Drones"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:113
+#: classes/EVEShipInfo.php:649
+msgid "Capacitor"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:114
+#: classes/EVEShipInfo.php:651
+msgid "%s power output"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:115
+#: classes/EVEShipInfo.php:652
+msgid "%s capacity"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:116
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:120
+#: classes/EVEShipInfo.php:650
+msgid "%s recharge rate"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:119
+#: classes/EVEShipInfo.php:653
+msgid "Shield"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:121
+#: classes/EVEShipInfo.php:654
+msgid "Armor"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:122
+#: classes/EVEShipInfo.php:655
+msgid "Structure"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:123
+msgid "%s  signature radius"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:126
+#: classes/EVEShipInfo.php:657
+msgid "Max target range"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:127
+#: classes/EVEShipInfo.php:658
+msgid "Max locked targets"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:128
+#: classes/EVEShipInfo.php:659
+msgid "Scan speed"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipDetail.php:129
+#: classes/EVEShipInfo.php:660
+msgid "Scan resolution"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipFinder.php:7
+msgid "Ship finder"
+msgstr ""
+
+#: classes/EVEShipInfo/VirtualPage/ShipFinder.php:53
+msgid "Configure the list..."
+msgstr ""
+
+#: classes/EVEShipInfo.php:151
+msgid ""
+"The class %1$s is not a valid virtual page, it must extend the %2$s class."
+msgstr ""
+
+#: classes/EVEShipInfo.php:420
+msgid "Light"
+msgstr ""
+
+#: classes/EVEShipInfo.php:421
+msgid "A minimalistic theme for light themed layouts."
+msgstr ""
+
+#: classes/EVEShipInfo.php:426
+msgid "Dark"
+msgstr ""
+
+#: classes/EVEShipInfo.php:427
+msgid "A minimalistic theme for dark themed layouts."
+msgstr ""
+
+#: classes/EVEShipInfo.php:433
+msgid "A stylish dark theme with color substyles."
+msgstr ""
+
+#: classes/EVEShipInfo.php:656
+msgid "%s signature radius"
+msgstr ""
+
+#: classes/EVEShipInfo.php:749
+msgid "EVE ShipInfo settings"
+msgstr ""
+
+#: classes/EVEShipInfo.php:776
+msgid "Shortcodes"
+msgstr ""
+
+#: classes/EVEShipInfo.php:791
+msgid "Database"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "EVE Shipinfo"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://aeonoftime.com/EVE_Online_Tools/EVE-ShipInfo-WordPress-Plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Puts an EVE Online ships database in your WordPress website, along with high "
+"quality screenshots and specialized shortcodes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sebastian Mordziol"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.aeonoftime.com"
+msgstr ""

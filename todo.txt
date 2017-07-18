@@ -1,0 +1,3 @@
+- Make eft fit protection toggle-able like visibility
+- Add more list attribute filters
+- Add an update check button for the screenshots

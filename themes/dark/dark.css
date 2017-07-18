@@ -1,0 +1,143 @@
+/** ---------------------------------------------------
+ *  SHIP INFO POPUPS
+ *  --------------------------------------------------- */
+
+@import url(//fonts.googleapis.com/css?family=Rajdhani:500,600);
+
+.shipinfo-popup{
+font-family:'Rajdhani', sans-serif;
+font-size:16px;
+font-weight:500;
+background:rgb(22,22,22);
+padding:10px;
+border:solid 1px rgb(71,71,71);
+box-shadow:0 0 20px 2px rgba(0,0,0,0.6);
+color:rgb(161,161,161);
+}
+
+.shipinfo-header{
+line-height:30px;
+}
+
+.shipinfo-shipname{
+font-weight:600;
+font-size:22px;
+}
+
+.shipinfo-race-group{
+font-style:italic;
+}
+
+.shipinfo-content-wrapper{
+border:solid 1px rgb(71,71,71);
+background:rgb(32,32,32);
+}
+
+/* the li elements within the tab navigation */
+.shipinfo-nav-item{
+line-height:24px;
+padding:0 15px 5px;
+margin-right:5px;
+cursor:pointer;
+border-top:solid 5px rgb(22,22,22);
+}
+
+.shipinfo-nav-item:hover{
+color:rgb(255,255,255);
+background:rgb(111,111,111);
+border-top-color:rgb(111,111,111);
+}
+
+.shipinfo-nav-item.shipinfo-active{
+background:rgb(71,71,71);
+color:#fff;
+border-top-color:rgb(71,71,71);
+}
+
+.shipinfo-nav-item.shipinfo-active:hover{
+color:#fff;
+}
+
+.shipinfo-tab.shipinfo-frontview{
+	
+}
+
+.shipinfo-tab.shipinfo-description,
+.shipinfo-tab.shipinfo-attributes{
+}
+
+.shipinfo-content-wrapper.description,
+.shipinfo-content-wrapper.attributes{
+box-shadow:inset 0 0 4px 0 rgba(0,0,0,0.3);
+}
+
+.shipinfo-dismiss{
+line-height:34px;
+font-size:30px;
+cursor:pointer;
+padding-right:5px;
+color:#ccc;
+}
+
+.shipinfo-dismiss:hover{
+color:#fff;
+}
+
+.shipinfo-tab.shipinfo-fittings{
+overflow-y:scroll;
+}
+
+.shipinfo-tab{
+overflow:hidden;
+}
+
+/** ---------------------------------------------------
+ *  FITTING INFO BOXES
+ *  --------------------------------------------------- */
+
+.shipinfo-fittingbox{
+font-family:'Rajdhani', sans-serif;
+position:relative;
+margin:6px 0 28px 0;
+box-shadow:0 0 4px 0 rgba(0,0,0,0.3);
+padding:6px;
+border:solid 1px rgb(71,71,71);
+background:rgb(22,22,22);
+color:rgb(161,161,161);
+}
+
+.shipinfo-fittingbox A:link,
+.shipinfo-fittingbox A:visited{
+color:rgb(100,140,196);
+}
+
+.shipinfo-fittingbox A:active,
+.shipinfo-fittingbox A:hover{
+color:rgb(255,255,255);
+}
+
+.shipinfo-fittingbox-header{
+line-height:20px;
+margin-bottom:6px;
+padding:4px 0;
+}
+
+.shipinfo-fittingbox-content{
+padding:13px;
+font-family:monospace;
+box-shadow:inset 0 0 4px 0 rgba(0,0,0,0.3);
+background:rgb(32,32,32);
+border:solid 1px rgb(71,71,71);
+}
+
+.shipinfo-fittingbox-fitname{
+font-size:22px;
+font-weight:600;
+}
+
+.shipinfo-fittingbox-shipname{
+float:right;
+font-style:italic;
+margin-right:4px;
+font-size:16px;
+}

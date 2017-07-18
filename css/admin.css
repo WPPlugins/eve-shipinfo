@@ -1,0 +1,241 @@
+.text-success{
+color:#1fbe0e;
+}
+
+.text-dangerous,
+.text-danger,
+.text-error{
+color:#cc0000;
+}
+
+.text-muted{
+color:#999;
+}
+
+.button .dashicons{
+margin-top:3px;
+}
+
+.text-info,
+.widefat TD.text-info{
+color:#0074a2;
+}
+
+UL.subsubsub LI{
+padding-right:15px;
+border-right:solid 1px #ccc;
+margin-right:15px;
+}
+
+UL.subsubsub LI:last-child{
+border-right:0;
+}
+
+.shipinfo-list-ordering{
+float:right;
+}
+
+.shipinfo-list-ordering TD{
+font-size:13px;
+}
+
+.shipinfo-form-table TD{
+vertical-align:middle;
+}
+
+.shipinfo-table-controls{
+margin-bottom:8px;
+}
+
+.shipinfo-page-heading{
+margin-top:10px;
+margin-bottom:40px;
+display:table;
+}
+
+.shipinfo-page-heading H3{
+display:table-cell !important;
+margin:0 !important;
+padding:0 !important;
+font-size:20px !important;
+}
+
+.shipinfo-action-links{
+display:table-cell;
+padding-left:30px;
+}
+
+p.submit BUTTON{
+margin-right:9px !important;
+}
+
+.form-invalid .validation-message{
+color:#cc0000 !important;
+}
+
+.meta-box-error .stuffbox{
+border-color:#cc0000;
+}
+
+.meta-box-error .stuffbox H3{
+background:#cc0000;
+color:#fff;
+}
+
+.meta-box-success .stuffbox{
+border-color:#30851c;
+}
+
+.meta-box-success .stuffbox H3{
+background:#30851c;
+color:#fff;
+}
+
+.meta-box-warning .stuffbox{
+border-color:#df9800;
+}
+
+.meta-box-warning .stuffbox H3{
+background:#df9800;
+color:#fff;
+}
+
+TABLE.trace-table{
+font-size:13px;
+}
+
+/* displaying the update nag has the wrong margin when used in the wrap */
+.wrap .update-nag{
+margin-top:0;
+margin-bottom:20px;
+}
+
+.wrap .update-nag > P{
+margin:0;
+}
+
+.form-table .field-static TH,
+.form-table .field-static TD{
+padding-top:6px;
+padding-bottom:6px;
+}
+
+UL.list-toolbar > LI{
+float:left;
+margin-right:6px;
+}
+
+UL.list-toolbar LI.list-toolbar-separator{
+width:1px;
+height:28px;
+background:#ccc;
+margin-left:4px;
+margin-right:10px;
+}
+
+.radio-group-item{
+display:block;
+margin-bottom:8px;
+}
+
+.theme-entry .theme-button{
+position:relative;
+top:10px;
+}
+
+.themes-list{
+margin-top:40px;
+}
+
+.theme-entry{
+margin-left:30px;
+margin-bottom:30px;
+padding:16px;
+float:left;
+clear:both;
+border:solid 1px #dedede;
+background:#fafafa;
+box-shadow:0 1px 20px 5px rgba(0,0,0,.1);
+}
+
+.theme-currentname{
+position:relative;
+top:-5px;
+background:#32373c;
+color:#fff;
+padding:2px 8px;
+border-radius:2px;
+display:inline-block;
+font-size:11px;
+font-weight:normal;
+margin-left:9px;
+}
+
+.theme-entry .theme-description{
+font-style:italic;
+}
+
+.theme-entry .theme-name{
+padding:0 !important;
+margin:0 !important;
+font-size:32px !important;
+font-weight: 100 !important;
+}
+
+.theme-entry .theme-button{
+float:right;
+}
+
+.theme-thumb{
+width:400px;
+cursor:zoom-in;
+}
+
+.theme-thumb.maximized{
+width:auto;
+cursor:zoom-out;
+}
+
+.shipinfo-spinner{
+display:inline-block;
+background:url(../images/spinner.gif) no-repeat center center;
+min-width:20px;
+min-height:20px;
+line-height:1;
+vertical-align:top;
+}
+
+.shipinfo-clickable{
+cursor:pointer;
+}
+
+.fit-visibility-toggle.shipinfo-clickable:hover{
+color:#0073aa;
+}
+
+.shipinfo-page-title{
+margin-bottom:25px !important;
+}
+
+.shipinfo-creator{
+float:right;
+font-size:11px;
+color:#888;
+}
+
+.shipinfo-creator A:link,
+.shipinfo-creator A:visited{
+color:#444;
+text-decoration:none;
+}
+
+.shipinfo-creator A:active,
+.shipinfo-creator A:hover{
+color:#000;
+text-decoration:underline;
+}
+
+BODY.settings_page_eveshipinfo_settings P.submit{
+padding-bottom:0;
+margin-bottom:0;
+}

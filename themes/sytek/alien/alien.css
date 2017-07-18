@@ -1,0 +1,33 @@
+.shipinfo-popup{
+background-image:url(bg-main.png);
+}
+
+.shipinfo-nav-item:hover{
+background-image:url(nav-hover.png);
+}
+
+.shipinfo-nav-item.shipinfo-active{
+background-image:url(nav-bg-active.png);
+color:rgb(215,251,162);
+}
+
+.shipinfo-nav-item.shipinfo-active:hover{
+background-image:url(nav-bg-active.png);
+}
+
+.shipinfo-dismiss{
+background-image:url(nav-close.png);
+color:rgb(215,251,162);
+}
+
+/** ---------------------------------------------------
+ *  FITTING INFO BOXES
+ *  --------------------------------------------------- */
+
+.shipinfo-fittingbox{
+background-image:url(bg-fittings.jpg);
+}
+
+.shipinfo-fittingbox-content{
+border-color:rgb(204,255,132);
+}
